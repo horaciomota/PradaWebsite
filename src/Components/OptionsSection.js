@@ -83,7 +83,7 @@ const OptionsSection = () => {
   }, [listOfSections]);
 
   return (
-    <section className="max-w-7xl mx-auto mt-5 p-4 ">
+    <section className="max-w-5xl mx-auto mt-5 p-4 ">
       {/* Text Before List */}
       <div className="grid grid-cols-2 mt-10">
         <div className="hidden sm:block"></div>
@@ -105,13 +105,13 @@ const OptionsSection = () => {
         </div>
 
         {/* Model Picture */}
-          <div className="col-span-2 sm:col-span-1 mt-4 min-h-80 aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:min-h-screen sm:w-full">
-            <img
-              src="https://weselectdresses.com/wp-content/uploads/2023/01/Screenshot-2023-01-08-at-5.08.22-PM.jpeg"
-              alt="Model"
-              className="h-full w-full object-cover object-center lg:h-full lg:w-full"
-            />
-          </div>
+        <div className=" col-span-2 sm:col-span-1 mt-4 min-h-80 aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:min-h-screen sm:w-full">
+          <img
+            src="https://www.prada.com/content/dam/pradanux/home_page/2022/11/holiday/mosaic_holiday_3/Card_1_DT.jpg"
+            alt="Model"
+            className="h-full w-full object-cover object-center object-right  lg:h-full lg:w-full"
+          />
+        </div>
       </div>
     </section>
   );

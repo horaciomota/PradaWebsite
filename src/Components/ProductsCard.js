@@ -31,22 +31,13 @@ const products = [
     price: "€1980",
     color: "Black",
   },
-  {
-    id: 1,
-    name: "Prada Cleo satin bag with crystals",
-    href: "#",
-    imageSrc:
-      "https://www.prada.com/content/dam/pradabkg_products/1/1BC/1BC169/2AWLF063R/1BC169_2AWL_F063R_V_HOO_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.1000.1000.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
-    price: "€3300",
-    color: "Metal",
-  },
+
   // More products...
 ];
 
 export default function ProductsCard() {
   return (
-    <section className="max-w-7xl mx-auto mt-5 p-4">
+    <section className="max-w-5xl mx-auto mt-5 p-4">
       {/* Text Before shopCart */}
       <div className="grid grid-cols-2 mt-10">
         <div className="hidden sm:block"></div>
@@ -63,7 +54,7 @@ export default function ProductsCard() {
       </div>
       {/* ShopCart */}
 
-      <div className=" mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8 ">
+      <div className=" mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8 ">
         {products.map((product) => (
           <div key={product.id} className="group relative ">
             <div className="min-h-80 aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80 ">
