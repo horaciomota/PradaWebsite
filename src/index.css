@@ -1,5 +1,10 @@
-/* src/index.css */
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;700&display=swap");
 
+/* src/index.css */
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+* {
+  font-family: "Libre Franklin", sans-serif;
+}

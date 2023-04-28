@@ -85,8 +85,8 @@ const OptionsSection = () => {
   return (
     <section className="max-w-5xl mx-auto mt-5 p-4 ">
       {/* Text Before List */}
-      <div className="grid grid-cols-2 mt-10">
-        <div className="hidden sm:block"></div>
+      <div className="flex mt-10 ">
+        <div className="hidden sm:block lg:w-1/3 "></div>
         <div className="col-span-2 sm:col-span-1">
           <h2 class="tracking-tight text-gray-900 uppercase text-4xl lg:text-6xl font-semibold mb-5">
             New in
@@ -94,22 +94,20 @@ const OptionsSection = () => {
         </div>
       </div>
       {/* Columms of itens and Model Picture */}
-      <div className="grid grid-cols-2 gap-0 ">
+      <div className="lg:flex sm:block">
         {/* List of section */}
-        <div className="flex lg:flex-col gap-4 col-span-2 sm:col-span-1 sm:flex-row">
+        <div className=" flex mb-5 lg:w-1/2 lg:flex-col gap-4 col-span-2 sm:col-span-1 sm:flex-row sm:w-1/2 ">
           {itemsToShow.map((itemList) => (
             <h2 key={itemList.id} className="font-semibold uppercase">
               {itemList.CatName}
             </h2>
           ))}
         </div>
-
-        {/* Model Picture */}
-        <div className=" col-span-2 sm:col-span-1 mt-4 min-h-80 aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:min-h-screen sm:w-full">
+        <div className="min-h-80 aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md lg:aspect-none group lg:h-pictureSpecial">
           <img
             src="https://www.prada.com/content/dam/pradanux/home_page/2022/11/holiday/mosaic_holiday_3/Card_1_DT.jpg"
             alt="Model"
-            className="h-full w-full object-cover object-center object-right  lg:h-full lg:w-full"
+            className="h-full w-full object-cover object-top lg:h-full lg:w-full group-hover:opacity-75"
           />
         </div>
       </div>

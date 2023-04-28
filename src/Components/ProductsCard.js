@@ -4,7 +4,7 @@ const products = [
     name: "Prada Cleo satin bag with crystals",
     href: "#",
     imageSrc:
-      "https://www.prada.com/content/dam/pradabkg_products/1/1BC/1BC169/2AWLF063R/1BC169_2AWL_F063R_V_HOO_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.1000.1000.jpg",
+      "https://www.prada.com/content/dam/pradabkg_products/1/1BC/1BC543/2EC9F0591/1BC543_2EC9_F0591_V_ZOO_SLF.jpg/jcr:content/renditions/cq5dam.web.hebebed.1000.1000.crop.jpg",
     imageAlt: "Front of men's Basic Tee in black.",
     price: "€3300",
     color: "Metal",
@@ -14,7 +14,7 @@ const products = [
     name: "Re-Nylon mini bag",
     href: "#",
     imageSrc:
-      "https://www.prada.com/content/dam/pradanux_products/1/1NI/1NI545/R067F0002/1NI545_R067_F0002_SLF.png/_jcr_content/renditions/cq5dam.web.hebebed.1000.1000.jpg",
+      "https://www.prada.com/content/dam/pradabkg_products/1/1BC/1BC543/2EC9F0615/1BC543_2EC9_F0615_V_ZOO_SLF.jpg/jcr:content/renditions/cq5dam.web.hebebed.1000.1000.crop.jpg",
     imageAlt:
       "Characterized by a sleek line and emphasized by the iconic enameled metal triangle logo, this mini bag is made of Prada's innovative Re-Nylon fabric produced from recycled plastic materials collected in the ocean. ",
     price: "€560",
@@ -25,7 +25,7 @@ const products = [
     name: "Saffiano leather shoulder bag",
     href: "#",
     imageSrc:
-      "https://www.prada.com/content/dam/pradanux_products/1/1NI/1NI545/R067F0002/1NI545_R067_F0002_SLF.png/_jcr_content/renditions/cq5dam.web.hebebed.1000.1000.jpg",
+      "https://www.prada.com/content/dam/pradabkg_products/1/1BC/1BC543/2EC9F0009/1BC543_2EC9_F0009_V_ZOO_SLF.jpg/jcr:content/renditions/cq5dam.web.hebebed.1000.1000.crop.jpg",
     imageAlt:
       "This shoulder bag with a feminine design and flap is made of Saffiano leather. The accessory is embellished with enameled metal triangle logo that decorates the tip of the flap closure. The bag, with versatile yet ",
     price: "€1980",
@@ -39,9 +39,9 @@ export default function ProductsCard() {
   return (
     <section className="max-w-5xl mx-auto mt-5 p-4">
       {/* Text Before shopCart */}
-      <div className="grid grid-cols-2 mt-10">
-        <div className="hidden sm:block"></div>
-        <div className="col-span-2 sm:col-span-1">
+      <div className="flex mt-10">
+        <div className="hidden sm:block lg:w-1/3"></div>
+        <div className="flex-1 col-span-2 sm:col-span-1">
           <h2 class="tracking-tight text-gray-900 uppercase text-4xl lg:text-6xl font-semibold">
             New arrivals winter-fall 2023
           </h2>

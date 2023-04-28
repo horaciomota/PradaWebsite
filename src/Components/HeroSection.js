@@ -11,14 +11,14 @@ export default function HeroSection() {
     <>
       <Header />
       <div className="bg-white">
-        <div className="relative isolate px-6 pt-14 lg:px-8">
+        <div className="relative isolate pt-14 ">
           <div class="flex flex-wrap">
             {/* Hero Image 1 */}
             <div class="w-full lg:w-1/3  bg-gray-300">
               <img
                 src={hero3}
                 alt=""
-                className="mx-auto object-contain w-full h-full hidden lg:block"
+                className="mx-auto object-cover w-full h-full hidden lg:block"
               />
             </div>
             {/* Hero Image 1 */}
@@ -26,7 +26,7 @@ export default function HeroSection() {
               <img
                 src={hero1}
                 alt=""
-                className="mx-auto object-contain w-full h-full"
+                className="mx-auto object-cover w-full h-full"
               />
             </div>
             {/* Hero Image 1 */}
@@ -34,7 +34,7 @@ export default function HeroSection() {
               <img
                 src={hero2}
                 alt=""
-                className="mx-auto object-contain w-full h-full hidden lg:block"
+                className="mx-auto object-cover w-full h-full hidden lg:block"
               />
             </div>
           </div>
