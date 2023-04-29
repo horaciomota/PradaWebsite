@@ -98,7 +98,7 @@ const OptionsSection = () => {
         {/* List of section */}
         <div className=" flex mb-5 lg:w-1/2 lg:flex-col gap-4 col-span-2 sm:col-span-1 sm:flex-row sm:w-1/2 ">
           {itemsToShow.map((itemList) => (
-            <h2 key={itemList.id} className="font-semibold uppercase">
+            <h2 key={itemList.id} className="uppercase">
               {itemList.CatName}
             </h2>
           ))}
@@ -109,6 +109,9 @@ const OptionsSection = () => {
             alt="Model"
             className="h-full w-full object-cover object-top lg:h-full lg:w-full group-hover:opacity-75"
           />
+        </div>
+        <div className="w-full bg-black uppercase text-white text-center mt-5 p-3 rounded lg:hidden">
+          Discover More
         </div>
       </div>
     </section>

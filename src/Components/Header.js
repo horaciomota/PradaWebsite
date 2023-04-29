@@ -11,22 +11,21 @@ const Header = () => {
     { name: "Bags", href: "#" },
     { name: "Gifts", href: "#" },
     { name: "Linda Rossa", href: "#" },
-    { name: "Pradasphere", href: "#" },
   ];
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="max-w-5xl mx-auto absolute inset-x-0 top-0 z-50">
+    <header className="max-w-5xl mx-auto absolute inset-x-0 top-0 z-50 ">
       <nav
         className="flex items-center justify-between p-2 lg:px-8"
         aria-label="Global"
       >
         {/* Logo */}
-        <div className="flex lg:flex-1">
+        <div className="flex lg:flex-1 justify-between">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Prada</span>
-            <img className="h-10 w-auto" src={pradaLogo} alt="" />
+            <img className="h-20 w-auto" src={pradaLogo} alt="Prada Logo" />
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -36,7 +35,7 @@ const Header = () => {
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
-            <Bars3Icon className="h-6 w-6" aria-hidden="true" />
+            <Bars3Icon className="h-6 w-6 text-white" aria-hidden="true" />
           </button>
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
@@ -44,14 +43,14 @@ const Header = () => {
             <a
               key={item.name}
               href={item.href}
-              className="text-sm font-semibold leading-6 text-gray-900 uppercase  "
+              className="text-sm leading-6 text-white uppercase  "
             >
               {item.name}
             </a>
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="#" className="text-sm font-semibold leading-6 text-white">
             Log in <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
@@ -67,7 +66,7 @@ const Header = () => {
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Prada</span>
-              <img className="h-8 w-auto" src={pradaLogo} alt="" />
+              <img className="h-20 w-auto" src={pradaLogo} alt="Prada Logo" />
             </a>
             <button
               type="button"

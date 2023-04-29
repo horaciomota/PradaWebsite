@@ -5,6 +5,7 @@ import HeroSection from "./Components/HeroSection";
 import ProductsCard from "./Components/ProductsCard";
 import OptionsSection from "./Components/OptionsSection";
 import JeffGalery from "./Components/JeffGalery";
+import LatestNews from "./Components/LatestNews";
 
 const App = () => {
   return (
@@ -13,7 +14,8 @@ const App = () => {
       <main>
         <ProductsCard />
         <OptionsSection />
-        <JeffGalery/>
+        <JeffGalery />
+        <LatestNews />
       </main>
     </>
   );
