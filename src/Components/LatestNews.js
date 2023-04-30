@@ -1,10 +1,13 @@
+import { useState } from "react";
+
 const LatestNews = () => {
+
   const LastNewsPosts = [
     {
       Title: "Prada Linea Rosa FW23",
       SubTitle:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-      Date: "25/01/2023",
+      Date: "25/04/2023",
       Image:
         "https://images-prod.dazeddigital.com/1800/azure/dazed-prod/1330/6/1336320.jpg",
     },
@@ -12,7 +15,7 @@ const LatestNews = () => {
       Title: "SS 2023 women's colletion",
       SubTitle:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-      Date: "25/01/2023",
+      Date: "13/04/2023",
       Image:
         "https://media.voguebusiness.com/photos/62e29623f6d4880dc7408daa/2:3/w_2560%2Cc_limit/prada-earnings-voguebus-photographer-month-22-story.jpg",
     },
@@ -20,7 +23,7 @@ const LatestNews = () => {
       Title: "Time capsule nft colection",
       SubTitle:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-      Date: "25/01/2023",
+      Date: "25/03/2023",
       Image:
         "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/W6BF6GUO4RPCFGCDSMXZW6DMGA.jpg",
     },
@@ -39,7 +42,7 @@ const LatestNews = () => {
       {/* CardLastNews */}
       {LastNewsPosts.map((Newpost) => (
         <div className="w-full flex justify-end items-center lg:items-start border-t-2 border-solid border-gray mb-5 ">
-          <div className="flex justify-center w-1/6 lg:w-1/6 lg:order-last order-first lg:rotate-0 flex items-center h-full -rotate-90 mt-5">
+          <div className="flex justify-center w-1/6 lg:w-1/6 lg:order-last order-first lg:rotate-0 items-center h-full -rotate-90 mt-5">
             <p className="text-right">{Newpost.Date}</p>
           </div>
 
