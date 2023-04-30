@@ -6,6 +6,7 @@ import ProductsCard from "./Components/ProductsCard";
 import OptionsSection from "./Components/OptionsSection";
 import JeffGalery from "./Components/JeffGalery";
 import LatestNews from "./Components/LatestNews";
+import OurColections from "./Components/OurColections";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <ProductsCard />
         <OptionsSection />
         <JeffGalery />
+        <OurColections />
         <LatestNews />
       </main>
     </>
