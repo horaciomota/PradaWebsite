@@ -37,7 +37,7 @@ const products = [
 
 export default function ProductsCard() {
   return (
-    <section className="max-w-5xl mx-auto mt-5 p-4">
+    <section className="max-w-6xl mx-auto mt-5 p-4">
       {/* Text Before shopCart */}
       <div className="flex mt-10">
         <div className="hidden sm:block lg:w-1/3"></div>

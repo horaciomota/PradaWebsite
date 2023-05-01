@@ -30,7 +30,7 @@ const LatestNews = () => {
   ];
 
   return (
-    <section className="max-w-5xl mx-auto p-4 ">
+    <section className="max-w-6xl mx-auto p-4 ">
       <div className="flex ">
         <div className="hidden sm:block lg:w-1/3 "></div>
         <div className=" flex-1 col-span-2 sm:col-span-1">
