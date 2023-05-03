@@ -37,7 +37,7 @@ const JeffGalery = () => {
 
         {/* Start of the Picture array  */}
 
-        <div className="w-full flex justify-between">
+        <div className="w-full flex justify-between mb-5">
           <div className="w-cardJef h-cardJef hidden lg:block">
             <img
               src="https://images-prod.dazeddigital.com/600/642-19-633-422/azure/dazed-prod/1320/5/1325474.jpg"

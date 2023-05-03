@@ -71,7 +71,7 @@ const OurColections = () => {
             />
 
             <div className="w-full bg-black uppercase text-white text-center mt-5 p-3 rounded lg:hidden">
-              Discover More
+              See Colection
             </div>
           </div>
         </div>
