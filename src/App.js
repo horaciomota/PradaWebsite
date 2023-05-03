@@ -12,7 +12,7 @@ const App = () => {
   return (
     <>
       <HeroSection />
-      <main>
+      <main className="overflow-hidden">
         <ProductsCard />
         <OptionsSection />
         <JeffGalery />
