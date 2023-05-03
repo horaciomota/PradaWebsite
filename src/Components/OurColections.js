@@ -67,8 +67,12 @@ const OurColections = () => {
             <img
               src="https://www.prada.com/content/dam/pradanux/home_page/2023/03/Tropico/ww/men_bag/banner_MB.jpg"
               alt="Model"
-              className="w-full h-full object-cover object-top  group-hover:opacity-75 "
+              className="w-full h-colection2 object-cover   group-hover:opacity-75 "
             />
+
+            <div className="w-full bg-black uppercase text-white text-center mt-5 p-3 rounded lg:hidden">
+              Discover More
+            </div>
           </div>
         </div>
       </div>
